@@ -4,11 +4,13 @@ import { useState } from "react";
 function App() {
 
   const [color, setColor] = useState("beige");
+  const textColor =  color === "green" || color === "red" ? "white" : "black"; // Text color based on background
+
 
   return (
 
     <div style={{ height: "100vh", display: "flex", justifyContent: "center", alignItems: "center",
-        backgroundColor: "#f0f0f0", transition: "background-color 0.3s ease" }}>
+         color: textColor, backgroundColor: "#f0f0f0", transition: "background-color 0.3s ease" }}>
           
       <div style={{ padding: "120px", textAlign: "center", width: "800px", backgroundColor: color }}>
 
@@ -45,5 +47,3 @@ function App() {
 }
 
 export default App;
-
-
