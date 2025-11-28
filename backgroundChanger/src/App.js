@@ -6,7 +6,6 @@ function App() {
   const [color, setColor] = useState("beige");
   const textColor =  color === "green" || color === "red" ? "white" : "black"; // Text color based on background
 
-
   return (
 
     <div style={{ height: "100vh", display: "flex", justifyContent: "center", alignItems: "center",
@@ -47,3 +46,4 @@ function App() {
 }
 
 export default App;
+

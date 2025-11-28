@@ -1,0 +1,48 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+/* Emoji button styling */
+.emoji-btn {
+  font-size: 40px;
+  padding: 20px;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.emoji-btn:hover {
+  transform: scale(1.1);
+}
+
+.happy { background: #fde047; }
+.neutral { background: #93c5fd; }
+.sad { background: #fca5a5; }
+
+.summary {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.summary p {
+  margin: 8px 0;
+}
