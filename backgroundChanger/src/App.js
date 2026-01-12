@@ -26,17 +26,17 @@ function App() {
          <p>Click a button below to switch background colors instantly.</p>   
 
         <button
-          style={{ width: "100%", margin: "10px", backgroundColor: "purple", padding: "12px", color: "white", 
+          style={{ width: "100%", margin: "10px", backgroundColor: "white", padding: "12px", color: "black", 
           border: "none", borderRadius: "4px", cursor: "pointer" }}
           onClick={() => setColor("green")}> Change background to Green </button>
 
         <button
-          style={{ width: "100%", margin: "10px", backgroundColor: "purple", padding: "12px", color: "white", 
+          style={{ width: "100%", margin: "10px", backgroundColor: "white", padding: "12px", color: "black ", 
           border: "none", borderRadius: "4px", cursor: "pointer" }}
           onClick={() => setColor("red")}> Change background to Red </button>
 
         <button
-          style={{ width: "100%", margin: "10px", backgroundColor: "purple", padding: "12px", color: "white", 
+          style={{ width: "100%", margin: "10px", backgroundColor: "white", padding: "12px", color: "black", 
           border: "none", borderRadius: "4px", cursor: "pointer" }}
           onClick={() => setColor("yellow")}> Change background to Yellow </button>
 
