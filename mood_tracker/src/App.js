@@ -14,7 +14,6 @@ function App() {
       [type]: prev[type] + 1,
     }));
   }
-
   const total = moods.happy + moods.neutral + moods.sad;
 
   function getDominantMood() {
@@ -38,7 +37,6 @@ function App() {
       </div>
 
       {/* Calculations */}
-
       <div className="summary">
         <p>😀 Happy: {moods.happy}</p>
         <p>😐 Neutral: {moods.neutral}</p>
